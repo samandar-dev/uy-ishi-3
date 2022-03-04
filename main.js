@@ -87,15 +87,17 @@
 
 
 
-// 6 masala ?????????????????????????????
+// 6 masala =================================
 
-// let n = 126;
+// let n = 1234;
 // let natija = 0;
 
-// for (let i = n; i > 0; i--) {
-//   natija += i % 10
+// while (n != 0) {
+//   natija += n % 10
+//   n = Math.floor(n / 10)
 // }
-// console.log(`Yig'indi ->> ${natija}`);
+
+// console.log(natija);
 
 
 
@@ -124,37 +126,42 @@
 
 
 
-// 9 masala ??????????????????????????????????
+// 9 masala  FIBONACIIIII =========================================================
 
 // let n = 10;
-// let natija = 1;
+// let natija = 0;
 
-// for (let i = 1; i <= n; i++) {
-//   natija += i
-//   natija *= i - i
+// let k1 = 0;
+// let k2 = 1;
 
+// for (let i = 1; i <= n - 2; i++) {
+//   let a = k2
+//   k2 = k1 + k2
+//   k1 = a
+// }
+
+// console.log(k2);
+
+
+
+// 10 masala  Tangaaaa ======================================
+
+// let n = 12;
+// let natija = 0;
+
+// for (let i = n; i > 0; i--) {
+//   natija = i % 10;
+//   console.log(i);
+//   i = Math.floor(i);
+//   // i = nn
+
+//   // if (natija == n % 10) {
+//   //   natija += i
+//   // }
+
+//   console.log(i);
 //   console.log(natija);
 // }
-
-
-
-// 10 masala ??????????????????????????????????
-
-// let n = 121;
-// let nn = 0;
-// let natija1 = 0;
-// let natija2 = 0;
-
-// for (let i = 0; i <= n; i++) {
-//   console.log(i);
-//   if (i % 10 == 1) {
-//     natija1 += 1
-//   } else if (i == 2) {
-//     natija2 += 1
-//   }
-// }
-
-// console.log(natija1, natija2);
 
 
 
